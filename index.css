@@ -1,0 +1,441 @@
+
+/* Font */
+
+@font-face {  
+    font-family: 'new';
+    src: url(/cchintzy.ttf)
+}   
+@font-face { 
+    font-family: "r" ;
+    src: url(/fonts/spacetime-regular.ttf)
+}
+
+
+
+
+/* Main / top   */ 
+
+/* */
+html {
+    height: 110%;
+}
+
+
+/* */
+
+
+body {
+    ;
+}
+
+
+.title , .title >    h1 {
+    font-family: "new";
+    font-size: 2.5em;
+    color: #333;
+    padding-left: 10%;
+}
+
+
+
+.headerTableRow:hover {  
+
+    background-color: rgba(0, 255, 174, 0.932);
+    cursor: pointer;
+}
+
+.container {
+    color :rgb(136, 255, 245);
+    
+    background-color: rgba(32, 165, 123, 0.884);
+    border-radius: 5px;
+    
+    
+}
+
+.container > p   {
+    font-family: "new", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    font-size: 150%;
+    color:black;
+    background-color: rgb(21, 62, 173)s;
+    border-radius: 35%;
+    padding: 1.2rem;
+    margin-top: .8rem;
+    box-sizing: border-box;
+    box-shadow: 2px 8px 5px 5px   rgba(4, 205, 255, 0.966);
+    box-shadow:inset aqua -5px -2px  30px .2rem ;
+    border:6px double aqua;
+   
+    padding-bottom: 10px;
+}
+.container { 
+  
+    background-color: rgb(21, 62, 173);
+    border-radius: 60%;
+    padding: 10%;
+    margin: 6%;
+   
+  
+ 
+    box-shadow: rgb(2, 247, 247) 5px 3px  200px 50px ;
+    border: 8px double aqua;
+ 
+    margin: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  
+
+    
+
+}
+
+a {
+    text-decoration: none;
+    color:black ;
+}
+
+/* Main Article and pages  Content   */
+
+
+.mainArticle {  
+    font-family: 'Courier New', Courier, monospace;
+
+    font-weight:500;
+    color:black;
+    background-color: rgb(21, 62, 173)s;
+    border-radius: 7%;
+    padding: 2.2rem;
+    margin-top: .8rem;
+    box-sizing: border-box;
+    box-shadow: 2px 8px 5px 5px   rgba(4, 205, 255, 0.966);
+    box-shadow:inset aqua -5px -2px  30px .2rem ;
+    border:6px double aqua;
+   
+}
+
+
+
+
+
+
+/*  forms and service / email    */  
+
+
+
+.formContainer ,.serviceForm {
+ 
+
+
+    background-color: rgb(21, 62, 173);
+    box-shadow:inset  rgb(3, 226, 226) 5px 10px 20px 20px ;
+    border: .6em groove  rgb(4, 138, 138);
+
+    
+      
+}
+.emergencyServices {
+
+/* */
+}
+
+.formContainer {
+    margin-top: 10px;
+   
+}
+
+.serviceForm ,  .serviceForm li  { 
+    background-color: rgb(37, 3, 99);
+    background-color: rgb(21, 62, 173);
+    box-shadow: 5em inset  rgb(3, 226, 226) 15px 30px 50px 50px ;
+    border: .6em groove  rgb(4, 138, 138);
+    font-size: 150%;
+   
+}
+.inputForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    height 125%;
+    
+}
+
+/*  button and option selector   */
+
+button { 
+    width:100%;
+    max-width: 175px; 
+    height: 50px; 
+    border: inset .2em rgb(0, 0, 0)   ;
+    border-radius: 25%;
+    font-size: 125%;
+    font-weight: bold;
+}
+
+    select{ 
+        width:100%;
+        max-width: 300px; 
+        height: 50px; 
+        border:  ;
+        }
+
+/*  SERVICES TITLE    */ 
+
+form > h2 , form >article { 
+    font-size: 4rem;
+}
+
+.serviceForm  li { 
+    background-color: aqua;
+    border: inset double aqua;
+}
+
+.serviceForm {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom:1.5% ;
+}
+
+
+form > h5 , form >article  {
+
+    display: flex;
+    justify-content: space-between;
+   
+    font-family: 'r', 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 2rem;    
+    border: .25em groove rgb(1, 243, 231);
+    padding-left: .5rem;
+    margin-left: .25em;
+    margin-right: .25em;
+
+}
+
+
+/*  type request and email request  */
+input .textBox  { 
+    height:200px;
+    height: 100px;
+    width:65%;
+    min-width:95%;
+    margin-bottom: 10%;
+}
+
+
+
+/*  forms and service / email    */  
+
+.serviceForm  > button {
+    height: 50px;
+   
+    border-radius: 25%;
+    font-weight: bold;
+    font-size: 1.5em;
+    border: 2px solid black;
+    box-shadow:inset rgb(2, 247, 247) 3px 3px  4px 1.5px ;
+}
+
+/*text-box customization*/
+ .textBox { 
+    font-size: 2rem;
+    height: 150px;
+    width: 65%;
+    min-width:95%;
+    font-weight: 700;
+    border-radius: 5%;
+
+
+    display: flex;
+ }
+
+ #emailBox {
+    font-size: 200%;
+    height: 50px;
+    font-weight: 700;
+    width: 65%;
+    min-width: 95%;
+
+ }
+
+
+.servicesBottom {
+    padding-bottom: 5%;
+    padding-left: 5%;
+}
+
+
+/* footer content  */ 
+.footer {
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: rem;
+    color:black;
+    background-color: rgb(21, 173, 173);
+    
+    padding: 1.8rem;
+
+    box-sizing: border-box;
+    box-shadow: 2px 8px 5px 5px   rgba(4, 205, 255, 0.966);
+    box-shadow:inset aqua -5px -2px  30px .2rem ;
+    border:1.6rem groove rgb(2, 247, 247)
+   
+}
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    color:antiquewhite;
+    border: double rgb(2, 247, 247)
+}
+
+
+
+/* Buttons design   */
+
+
+
+
+/*  Start of media query  */ 
+
+@media screen and (min-width: 528px  ) {
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            font-size: 2em;
+           
+
+        }
+        .container >p { 
+            font-size: 115%;
+            margin-left: -1%;
+            margin-right: -1%;
+            margin-top: 1.2px;
+  
+
+    }
+
+    .mainArticle {
+        font-size: 150%;
+    }
+
+
+    .title { 
+        font-size: 2.5em;
+        margin-left: -1%;
+    }
+    
+
+
+    .serviceForm  > button {
+        width: 100px;
+        height 50px;
+    }
+
+
+    @font-face { 
+        font-family: "r" ;
+        src: url(/fonts/spacetime-regular.ttf)
+    }
+
+    form > h2 , form >article { 
+        font-size: 4rem;
+    }
+
+
+
+}  
+
+
+@media screen and (min-width: 680px) { 
+    .container >p , .container  {
+        font-size: 130% ;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+       
+    }
+
+    .container 
+    {
+        flex-direction: row;
+        justify-content: space-around;
+    
+        margin-left: 3%;
+        margin-right:3%;
+    } 
+
+}
+
+
+
+
+ @media screen and (min-width: 812px) { 
+        .container >p , .container  {
+            font-size: 1.5em; ;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin: auto;
+            margin-left: .25rem;
+            margin-right: .25rem;
+           
+        }
+
+
+        .container 
+        {
+            flex-direction: row;
+            justify-content: center;
+            border-radius: 35%;
+ 
+      } 
+
+      .serviceForm  > button {
+        width: 15rem;
+        height: 7.5rem;
+        font-size: 2em;
+        border-radius: 35%;
+    }
+
+
+    }
+
+
+
+ @media screen and (min-width: 919px) { 
+        .container >p , .container  { 
+            font-size:160% ;
+            display: flex;
+            border:  1.2rem double aqua;
+            
+        }
+       
+    }
+
+
+
+
+/*
+
+a {
+    transition: 5s @media (min-width: 992px){
+    	Rules
+    };
+} 
+
+   */
+
+
+   /* Fonts import*/ 
+
+
+
+
+

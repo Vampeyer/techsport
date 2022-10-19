@@ -3,7 +3,7 @@
 
 @font-face {  
     font-family: 'new';
-    src: url(/cchintzy.ttf)
+    src: url(/fonts/cchintzy.ttf)
 }   
 @font-face { 
     font-family: "r" ;
@@ -103,7 +103,7 @@ a {
 .mainArticle {  
     font-family: 'Courier New', Courier, monospace;
 
-    font-weight:500;
+    font-weight:bold;
     color:black;
     background-color: rgb(21, 62, 173)s;
     border-radius: 7%;
@@ -112,7 +112,7 @@ a {
     box-sizing: border-box;
     box-shadow: 2px 8px 5px 5px   rgba(4, 205, 255, 0.966);
     box-shadow:inset aqua -5px -2px  30px .2rem ;
-    border:6px double aqua;
+    border:6px double rgb(0, 0, 0);
    
 }
 
@@ -152,13 +152,14 @@ a {
     box-shadow: 5em inset  rgb(3, 226, 226) 15px 30px 50px 50px ;
     border: .6em groove  rgb(4, 138, 138);
     font-size: 150%;
+    font-weight: 800;
    
 }
 .inputForm {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
-    height 125%;
+    height: 125%;
     
 }
 
@@ -175,16 +176,27 @@ button {
 }
 
     select{ 
-        width:100%;
-        max-width: 300px; 
-        height: 50px; 
-        border:  ;
-        }
+       
+        min-width:95%;
+        width:97%; 
+        height: 100px; 
+        border:#333 solid .5rem;
+        background-color: aliceblue;
+        padding-top: 2%;
+        margin-top: 1;
+        font-size: x-large;
+        font-weight: bold;
+    }
 
 /*  SERVICES TITLE    */ 
 
 form > h2 , form >article { 
-    font-size: 4rem;
+    font-size: 1.5rem;
+}
+
+form > h2 { 
+    font-size: 200%;
+    font-family: "r", 'Courier New', Courier, monospace;
 }
 
 .serviceForm  li { 
@@ -252,14 +264,25 @@ input .textBox  {
  }
 
  #emailBox {
-    font-size: 200%;
+    font-size: 125%;
     height: 50px;
     font-weight: 700;
     width: 65%;
     min-width: 95%;
-
+    background-color: aliceblue;
+    border-radius: 5%;
+    border: 3px solid black;
  }
-
+#phoneNum {
+    font-size: 125%;
+    height: 50px;
+    font-weight: 700;
+    width: 65%;
+    min-width: 95%;
+    background-color: aliceblue;
+    border-radius: 5%;
+    border: 3px solid black;
+}
 
 .servicesBottom {
     padding-bottom: 5%;
@@ -350,7 +373,7 @@ footer {
 }  
 
 
-@media screen and (min-width: 680px) { 
+@media screen and (min-width: 718px) { 
     .container >p , .container  {
         font-size: 130% ;
         display: flex;
@@ -375,7 +398,7 @@ footer {
 
 
 
- @media screen and (min-width: 812px) { 
+ @media screen and (min-width: 828px) { 
         .container >p , .container  {
             font-size: 1.5em; ;
             display: flex;
@@ -409,7 +432,7 @@ footer {
 
 
 
- @media screen and (min-width: 919px) { 
+ @media screen and (min-width: 1037px) { 
         .container >p , .container  { 
             font-size:160% ;
             display: flex;

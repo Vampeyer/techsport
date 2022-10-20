@@ -39,7 +39,7 @@ body {
 /*  /////////////////////////// */
 
 .headerContent { 
-    background-image: url(/images/techbg1.jpg);
+    background-image: url(/image/techbg1.png);
     background-repeat: no-repeat;
     background-size: 320%;
     background-position: center;
@@ -48,7 +48,7 @@ body {
 }
 
 .headerContent2 { 
-    background-image: url(/images/pcworkerphoto.jpg);
+    background-image: url(/image/pcworkerphoto.png);
     background-repeat: no-repeat;
     background-size: fixed;
     background-position: center;
@@ -408,7 +408,7 @@ footer {
 }  
 
 .headerContent2 { 
-    background-image: url(/images/pcworkerphoto.jpg);
+    background-image: url(/images/pcworkerphoto.png);
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
@@ -420,7 +420,7 @@ footer {
 }
 
 .headerContent1 { 
-    background-image: url(/images/pcworkerphoto.jpg);
+    background-image: url(/images/pcworkerphoto.png);
     background-repeat: no-repeat;
     background-size: fit-size;
     background-position: center;
